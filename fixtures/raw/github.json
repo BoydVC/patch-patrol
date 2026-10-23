@@ -1,0 +1,187 @@
+[
+  {
+    "ghsa_id": "GHSA-demo-lod4-17xx",
+    "cve_id": "CVE-2026-10001",
+    "html_url": "https://github.com/advisories/GHSA-demo-lod4-17xx",
+    "summary": "Demo fixture. lodash before 4.17.21 can pollute object prototypes.",
+    "description": "Demo fixture. A direct dependency on lodash 4.17.20 is inside the affected range. Upgrade to 4.17.21.",
+    "severity": "critical",
+    "cvss": { "score": 9.8 },
+    "published_at": "2026-10-23T06:00:00Z",
+    "updated_at": "2026-10-23T06:00:00Z",
+    "references": ["https://github.com/advisories/GHSA-demo-lod4-17xx"],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "npm", "name": "lodash" },
+        "vulnerable_version_range": "< 4.17.21",
+        "patched_versions": "4.17.21",
+        "vulnerable_functions": ["_.zipObjectDeep"]
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-min1-225x",
+    "cve_id": "CVE-2026-10011",
+    "html_url": "https://github.com/advisories/GHSA-demo-min1-225x",
+    "summary": "Demo fixture. minimist before 1.2.8 can pollute prototypes when parsing arguments.",
+    "description": "Demo fixture. minimist is pulled in transitively and is not declared in package.json.",
+    "severity": "high",
+    "cvss": { "score": 7.5 },
+    "published_at": "2026-10-22T18:00:00Z",
+    "updated_at": "2026-10-22T18:00:00Z",
+    "references": ["https://github.com/advisories/GHSA-demo-min1-225x"],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "npm", "name": "minimist" },
+        "vulnerable_version_range": "< 1.2.8",
+        "patched_versions": "1.2.8"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-vit1-160x",
+    "cve_id": null,
+    "html_url": "https://github.com/advisories/GHSA-demo-vit1-160x",
+    "summary": "Demo fixture. vitest before 1.6.1 exposes a development-only path.",
+    "description": "Demo fixture. This package is a direct devDependency.",
+    "severity": "medium",
+    "published_at": "2026-10-23T12:00:00Z",
+    "updated_at": "2026-10-23T12:00:00Z",
+    "references": ["https://github.com/advisories/GHSA-demo-vit1-160x"],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "npm", "name": "vitest" },
+        "vulnerable_version_range": "< 1.6.1",
+        "patched_versions": "1.6.1"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-req2-310x",
+    "cve_id": "CVE-2026-10002",
+    "html_url": "https://github.com/advisories/GHSA-demo-req2-310x",
+    "summary": "Demo fixture. requests before 2.32.3 leaks credentials across redirects.",
+    "description": "Demo fixture. The catalog service pins requests 2.31.0.",
+    "severity": "high",
+    "cvss": { "score": 8.1 },
+    "published_at": "2026-10-22T23:00:00Z",
+    "updated_at": "2026-10-22T23:00:00Z",
+    "references": ["https://github.com/advisories/GHSA-demo-req2-310x"],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "pip", "name": "requests" },
+        "vulnerable_version_range": "< 2.32.3",
+        "patched_versions": "2.32.3"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-xnet-230x",
+    "cve_id": "CVE-2026-10021",
+    "html_url": "https://github.com/advisories/GHSA-demo-xnet-230x",
+    "summary": "Demo fixture. golang.org/x/net before v0.24.0 mishandles a proxy header.",
+    "description": "Demo fixture. The relay module requires v0.23.0.",
+    "severity": "high",
+    "cvss": { "score": 7.5 },
+    "published_at": "2026-10-23T02:00:00Z",
+    "updated_at": "2026-10-23T02:00:00Z",
+    "references": ["https://github.com/advisories/GHSA-demo-xnet-230x"],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "go", "name": "golang.org/x/net" },
+        "vulnerable_version_range": "< 0.24.0",
+        "patched_versions": "0.24.0"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-idna-050x",
+    "cve_id": null,
+    "html_url": "https://github.com/advisories/GHSA-demo-idna-050x",
+    "summary": "Demo fixture. idna 0.5.0 accepts a label that later versions reject.",
+    "description": "Demo fixture. The edge crate locks idna 0.5.0.",
+    "severity": "medium",
+    "published_at": "2026-10-22T12:30:00Z",
+    "updated_at": "2026-10-22T12:30:00Z",
+    "references": ["https://github.com/advisories/GHSA-demo-idna-050x"],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "rust", "name": "idna" },
+        "vulnerable_version_range": "< 0.5.1",
+        "patched_versions": "0.5.1"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-reac-180x",
+    "cve_id": "CVE-2026-10031",
+    "html_url": "https://github.com/advisories/GHSA-demo-reac-180x",
+    "summary": "Demo fixture. React before 18.2.0 has an issue that 18.3.1 does not.",
+    "description": "Demo fixture. Present so a patched version in tree does not match.",
+    "severity": "medium",
+    "cvss": { "score": 5.3 },
+    "published_at": "2026-10-23T08:00:00Z",
+    "updated_at": "2026-10-23T08:00:00Z",
+    "references": ["https://github.com/advisories/GHSA-demo-reac-180x"],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "npm", "name": "react" },
+        "vulnerable_version_range": "< 18.2.0",
+        "patched_versions": "18.2.0"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-old1-000x",
+    "cve_id": null,
+    "html_url": "https://github.com/advisories/GHSA-demo-old1-000x",
+    "summary": "Demo fixture published outside the 48 hour window.",
+    "description": "This record should be dropped by the window filter.",
+    "severity": "low",
+    "published_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-01T00:00:00Z",
+    "references": [],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "npm", "name": "old-demo" },
+        "vulnerable_version_range": "< 1.0.0",
+        "patched_versions": "1.0.0"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-with-draw",
+    "cve_id": null,
+    "html_url": "https://github.com/advisories/GHSA-demo-with-draw",
+    "summary": "Demo fixture that was withdrawn.",
+    "description": "Withdrawn advisories are not matched.",
+    "severity": "low",
+    "published_at": "2026-10-23T01:00:00Z",
+    "withdrawn_at": "2026-10-23T02:00:00Z",
+    "references": [],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "npm", "name": "left-pad" },
+        "vulnerable_version_range": "< 9.9.9",
+        "patched_versions": "9.9.9"
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-demo-mvn1-000x",
+    "cve_id": null,
+    "html_url": "https://github.com/advisories/GHSA-demo-mvn1-000x",
+    "summary": "Demo fixture for a Maven package Patch Patrol does not match.",
+    "description": "Unsupported ecosystems are counted and skipped.",
+    "severity": "high",
+    "published_at": "2026-10-23T03:00:00Z",
+    "references": [],
+    "vulnerabilities": [
+      {
+        "package": { "ecosystem": "maven", "name": "org.example:demo" },
+        "vulnerable_version_range": "< 1.2.0",
+        "patched_versions": "1.2.0"
+      }
+    ]
+  }
+]

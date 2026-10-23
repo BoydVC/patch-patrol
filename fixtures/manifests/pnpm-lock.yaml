@@ -1,0 +1,20 @@
+lockfileVersion: '9.0'
+
+importers:
+  .:
+    dependencies:
+      lodash:
+        specifier: ^4.17.20
+        version: 4.17.20
+    devDependencies:
+      vitest:
+        specifier: ^1.6.0
+        version: 1.6.0
+
+packages:
+  lodash@4.17.20:
+    resolution: { integrity: sha512-demo }
+  minimist@1.2.5:
+    resolution: { integrity: sha512-demo }
+  vitest@1.6.0:
+    resolution: { integrity: sha512-demo }

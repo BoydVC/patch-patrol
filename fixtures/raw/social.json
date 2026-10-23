@@ -1,0 +1,25 @@
+[
+  {
+    "id": "SOCIAL-DEMO-1",
+    "author": "sec-feed",
+    "text": "Demo fixture from the social slot. lodash 4.17.20 is in the prototype-pollution range. Patch is 4.17.21.",
+    "publishedAt": "2026-10-23T07:30:00Z",
+    "aliases": ["GHSA-demo-lod4-17xx"],
+    "severity": "high",
+    "ecosystem": "npm",
+    "package": "lodash",
+    "introduced": "0",
+    "fixed": "4.17.21",
+    "references": ["https://example.com/social/lodash-demo"]
+  },
+  {
+    "id": "SOCIAL-DEMO-OLD",
+    "author": "sec-feed",
+    "text": "Demo fixture posted outside the window.",
+    "publishedAt": "2026-08-01T00:00:00Z",
+    "severity": "low",
+    "ecosystem": "npm",
+    "package": "old-social",
+    "fixed": "1.0.0"
+  }
+]

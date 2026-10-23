@@ -1,0 +1,97 @@
+{
+  "vulnerabilities": [
+    {
+      "cve": {
+        "id": "CVE-2026-10001",
+        "published": "2026-10-23T06:10:00.000",
+        "lastModified": "2026-10-23T06:10:00.000",
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Demo fixture. lodash before 4.17.21 can pollute object prototypes. See GHSA-demo-lod4-17xx."
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            { "cvssData": { "baseScore": 9.8, "baseSeverity": "CRITICAL" } }
+          ]
+        },
+        "references": [{ "url": "https://github.com/advisories/GHSA-demo-lod4-17xx" }],
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:lodash:lodash:*:*:*:*:*:node.js:*:*",
+                    "versionEndExcluding": "4.17.21"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2026-10002",
+        "published": "2026-10-22T23:10:00.000",
+        "lastModified": "2026-10-22T23:10:00.000",
+        "descriptions": [
+          {
+            "lang": "en",
+            "value": "Demo fixture. requests before 2.32.3 leaks credentials across redirects. See GHSA-demo-req2-310x."
+          }
+        ],
+        "metrics": {
+          "cvssMetricV31": [
+            { "cvssData": { "baseScore": 8.1, "baseSeverity": "HIGH" } }
+          ]
+        },
+        "references": [{ "url": "https://github.com/advisories/GHSA-demo-req2-310x" }],
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:python-requests:requests:*:*:*:*:*:python:*:*",
+                    "versionEndExcluding": "2.32.3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": {
+        "id": "CVE-2026-10099",
+        "published": "2026-10-22T20:00:00.000",
+        "lastModified": "2026-10-22T20:00:00.000",
+        "descriptions": [
+          { "lang": "en", "value": "Demo fixture for an unsupported ecosystem." }
+        ],
+        "configurations": [
+          {
+            "nodes": [
+              {
+                "cpeMatch": [
+                  {
+                    "vulnerable": true,
+                    "criteria": "cpe:2.3:a:apache:log4j:*:*:*:*:*:*:*:*",
+                    "versionEndExcluding": "2.17.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "windowHours": 48,
+  "now": "2026-10-23T22:00:00.000Z",
+  "repos": [
+    { "name": "northwind/storefront", "path": "fixtures/repos/northwind-storefront" },
+    { "name": "northwind/catalog", "path": "fixtures/repos/northwind-catalog" },
+    { "name": "northwind/relay", "path": "fixtures/repos/northwind-relay" },
+    { "name": "northwind/edge", "path": "fixtures/repos/northwind-edge" },
+    { "name": "northwind/docs", "path": "fixtures/repos/northwind-docs" }
+  ]
+}
